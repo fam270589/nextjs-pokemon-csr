@@ -4,4 +4,8 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: ['jherr-pokemon.s3.us-west-1.amazonaws.com'],
+  },
+}
